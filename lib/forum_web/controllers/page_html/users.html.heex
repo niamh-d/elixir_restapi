@@ -1,0 +1,7 @@
+<h1>Users Page</h1>
+
+<ul>
+  <%= for user <- @users do %>
+    <li>User's name is {user.name}. Their age is {user.age} and they live in {user.city}.</li>
+  <% end %>
+</ul>
